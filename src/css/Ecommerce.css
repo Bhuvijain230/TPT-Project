@@ -5,8 +5,8 @@
 }
 
 .nav-bar {
-    height: 60px;
-    background-color :#0f1111;
+    height: 70px;
+    background-color :hsl(200, 5%, 11%);
     color : white;
     display:flex;
     align-items: center;
@@ -20,9 +20,9 @@
 
 }
 .logo{
-    background-image:url("amazon_logo.png");
+    background-image:url("logo.png");
     height:50px;
-    width: 100px;
+    width: 55px;
     background-size: cover;
 }
 
@@ -96,6 +96,16 @@
 }
 
 /**box4**/
+.sign-inBorder {
+    background-color: hsl(200, 5%, 11%);
+    border: none;
+    font-size: 0.85rem ;
+    font-weight: 700;
+    color: white;
+}
+.sign-inBorder:hover{
+    border: 1.5px solid white;
+}
 span{
     font-size: 0.75rem;
     
@@ -117,10 +127,10 @@ span{
 /*panel*/
 
 .panel{
-background-color:#222f3d;
+background-color:#f0f3f7;
 height: 40px;
 display: flex;
-color: white;
+color: black;
 align-items: center;
 justify-content: center;
 }
@@ -210,7 +220,7 @@ footer{
 .foot-panel1{
     height: 50px;
     cursor: pointer;
-    background-color: #37475a;
+    background-color: #1f2124;
     color: white;
     display: flex;
     align-items: center;
@@ -219,7 +229,7 @@ footer{
 
 }
 .foot-panel1:hover {
-    background-color:#37475a;
+    background-color:#3d3e3f;
     opacity: 0.9;
     transition: background-color 1s;
 }
