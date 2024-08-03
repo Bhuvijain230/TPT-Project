@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Ecommerce } from './Ecommerce';
+import { Ecommerce } from './component/Ecommerce';
 function App() {
   return (
     <div className="App">

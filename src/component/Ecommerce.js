@@ -1,7 +1,11 @@
 import React from "react";
-import './css/Ecommerce.css';
+import '../css/Ecommerce.css';
 
 export const Ecommerce = () => {
+
+    const handleLogin=()=>{
+        
+    }
     return (
         <div className="ecommerce">
             <header>
@@ -22,16 +26,15 @@ export const Ecommerce = () => {
                         <select className="search-select">
                             <option>All</option>
                         </select>
-                        <input placeholder="Search Amazon" className="search-input" />
+                        <input placeholder="Search " className="search-input" />
                         <div className="search-icon">
                             <i className="fa-solid fa-magnifying-glass"></i>
                         </div>
                     </div>
 
-                    <div className="sign-in border">
-                        <p><span>Hello, sign in</span></p>
-                        <p className="nav-second">Accounts & Lists</p>
-                    </div>
+                    {/* <div className="sign-inBorder"> */}
+                        <button className="sign-inBorder">LogIn or SignUp</button>
+                    {/* </div> */}
                     <div className="nav-return border">
                         <p><span>Returns</span></p>
                         <p className="nav-second">& Orders</p>
@@ -60,7 +63,7 @@ export const Ecommerce = () => {
 
             <div className="hero-section">
                 <div className="hero-message">
-                    You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="#">Click here to go to amazon.in</a>
+                    You are on femme.com. You can also shop on femme India for millions of products with fast local delivery.<a href="#">Click here to go to femme.in</a>
                 </div>
             </div>
 
@@ -130,37 +133,37 @@ export const Ecommerce = () => {
                         <p>Get to Know Us</p>
                         <a href="#">Careers</a>
                         <a href="#">Blog</a>
-                        <a href="#">About Amazon</a>
+                        <a href="#">About femme</a>
                         <a href="#">Investor Relations</a>
-                        <a href="#">Amazon Devices</a>
-                        <a href="#">Amazon Science</a>
+                        <a href="#">Femme Devices</a>
+                        <a href="#">Femme Science</a>
                     </ul>
                     <ul>
                         <p>Make Money with Us</p>
-                        <a href="#">Sell products on Amazon</a>
-                        <a href="#">Sell on Amazon Business</a>
-                        <a href="#">Sell apps on Amazon</a>
+                        <a href="#">Sell products on Femme</a>
+                        <a href="#">Sell on Femme Business</a>
+                        <a href="#">Sell apps on Femme</a>
                         <a href="#">Become an Affiliate</a>
                         <a href="#">Advertise Your Products</a>
                         <a href="#">Self-Publish with Us</a>
-                        <a href="#">Host an Amazon Hub</a>
+                        <a href="#">Host an Femme Hub</a>
                     </ul>
                     <ul>
-                        <p>Amazon Payment Products</p>
-                        <a href="#">Amazon Business Card</a>
+                        <p>Femme Payment Products</p>
+                        <a href="#">Femme Business Card</a>
                         <a href="#">Shop with Points</a>
                         <a href="#">Reload Your Balance</a>
-                        <a href="#">Amazon Currency Converter</a>
+                        <a href="#">Femme Currency Converter</a>
                     </ul>
                     <ul>
                         <p>Let Us Help You</p>
-                        <a href="#">Amazon and COVID-19</a>
+                        <a href="#">Femme and COVID-19</a>
                         <a href="#">Your Account</a>
                         <a href="#">Your Orders</a>
                         <a href="#">Shipping Rates & Policies</a>
                         <a href="#">Returns & Replacements</a>
                         <a href="#">Manage Your Content and Devices</a>
-                        <a href="#">Amazon Assistant</a>
+                        <a href="#">femme Assistant</a>
                     </ul>
                 </div>
                 <div className="foot-panel3">
